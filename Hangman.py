@@ -15,7 +15,7 @@ while True:
         continue
 
     elif question == 'y':
-        word = random.choice(dict)
+        word = random.choice(dict)  # generates a random word from the dictionary
         word1 = word
         tries = 7
         choice = ''
